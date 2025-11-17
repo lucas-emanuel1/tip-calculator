@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gorjeta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main id="container">
+        <header>
+            Calculadora de Gorjeta
+        </header>
+
+        <form action="">
+            <div>
+                <label for="accountValue">Valor da conta</label>
+                <input type="number" name="accountValue" id="accountValue" placeholder="Ex: 150.00" required>
+                <span>Digite um valor válido</span>
+            </div>
+
+            <div>
+                <label for="tipValue">Porcentagem da gorjeta (%)</label>
+                <input type="number" name="tipValue" id="tipValue" placeholder="Ex: 10" required>
+                <span>Informe uma porcentagem válida</span>
+            </div>
+
+            <div>
+                <label for="peopleValue">Quantidade de pessoas</label>
+                <input type="number" name="peopleValue" id="peopleValue" placeholder="Ex: 3" required>
+                <span>Deve ser pelo menos 1 pessoa</span>
+            </div>
+
+            <button type="submit">Calcular</button>
+            <button type="reset">Limpar</button>
+        </form>
+
+        <section id="showResult">
+            <h2>Resultado</h2>
+            <p>Gorjeta: R$ 0,00</p>
+            <p>Total: R$ 0,00</p>
+            <p>Por pessoa: R$ 0,00</p>
+        </section>
+    </main>
+    
+</body>
+</html>
