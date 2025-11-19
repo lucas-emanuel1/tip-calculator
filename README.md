@@ -28,3 +28,6 @@ Uma aplicação simples feita com **HTML, CSS e JavaScript** para calcular o val
 
 Praticar JavaScript puro, reforçando lógica, DOM e validação.  
 Foi meu primeiro projetinho completo feito do zero, sem copiar JS, só entendendo e quebrando a cabeça até funcionar.
+
+## 🔗 Acesse o projeto
+[**Clique aqui para ver no GitHub Pages**](https://lucas-emanuel1.github.io/tip-calculator/)
